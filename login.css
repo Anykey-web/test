@@ -1,0 +1,24 @@
+.b1 { 
+    display: grid; 
+    grid-template-areas:
+    "nav section main ";
+    grid-template-columns: 1fr 30% 1fr;  
+    grid-gap: 10px;
+    height: 150px;
+}
+nav
+section,
+main {
+  padding: 10px;
+}
+#left {
+  grid-area: nav;
+}
+#center {
+  grid-area: section;
+  background: rgba(173, 102, 240, 0.322);
+  text-align:center;
+}
+#right {
+  grid-area: main;
+}

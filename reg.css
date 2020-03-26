@@ -1,0 +1,21 @@
+.form-wrap {
+  width: 550px;
+  background: #ffd500;
+  border-radius: 20px;
+  
+}
+.form-wrap *{transition: .1s linear}
+.profile {
+  width: 240px;
+  float: left;
+  text-align: center;
+  padding: 30px;
+}
+form {
+  background: white;
+  float: left;
+  width: calc(100% - 240px);
+  padding: 30px;
+  border-radius: 0 20px 20px 0;
+  color: #7b7b7b; 
+}
